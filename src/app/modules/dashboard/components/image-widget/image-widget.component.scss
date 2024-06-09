@@ -1,0 +1,23 @@
+.image-widget{
+    background: url(/assets/images/back-info.png);
+    height: 248px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 18px rgba(0, 0, 0, 0.230);
+    border-radius: 0.8rem;
+    height: 20rem;
+    .img-opacity{
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.7);
+        border-radius: 0.8rem;
+    }
+
+    .card-number{
+        font-size: 3rem;
+    }
+    .card-text{
+        color: #D9D9D9;
+        font-size: 1.5rem;
+    }
+}

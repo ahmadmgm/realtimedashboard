@@ -1,0 +1,47 @@
+.content-box{
+    box-shadow: 1px 1px 18px rgba(0, 0, 0, 0.230);
+    border-radius: 0.8rem;
+}
+
+.circle{
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.blue-circle{
+    background: rgba(90, 145, 221, 1);
+}
+
+.green-circle{
+    background: rgba(102, 192, 136, 1);
+}
+
+.orange-circle{
+    background: rgba(218, 157, 0, 1);
+}
+
+.text-number{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.text-status{
+    color: rgba(178, 186, 201, 1);
+    font-size: 12px;
+}
+
+.head-title{
+    top: 1rem;
+    left: 1rem;
+}
+
+.small-percent {
+    font-size: 0.6rem;
+    color: rgb(102, 192, 136);
+    background: rgb(55, 57, 61);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.2rem;
+}

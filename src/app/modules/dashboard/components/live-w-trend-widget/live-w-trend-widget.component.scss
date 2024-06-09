@@ -1,0 +1,60 @@
+.chart-container {
+    box-shadow: 1px 1px 18px rgba(0, 0, 0, 0.230);
+    border-radius: 0.8rem;
+    padding: 2rem;
+    padding-top: 6rem;
+}
+
+.widget-info {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 100%;
+
+    .chart-desc {
+        color: rgba(178, 186, 201, 1);
+    }
+
+    .small-text {
+        font-size: 0.6rem;
+        color: rgba(178, 186, 201, 1);
+        position: relative;
+        top: -8px;
+    }
+
+    .small-percent {
+        font-size: 0.6rem;
+        color: rgba(102, 192, 136, 1);
+        background: rgba(55, 57, 61, 1);
+        padding: 0.2rem 0.4rem;
+        border-radius: 0.2rem;
+    }
+
+    .chart-info{
+        position: absolute;
+        right: 5rem;
+        top: 1.4rem;
+    }
+
+    .cricle{
+        width: 12px;
+        height: 12px;
+        border-radius: 0.2rem;
+    }
+
+    .green-circle{
+        background: rgba(102, 192, 136, 1);
+    }
+
+    .orange-circle{
+        background: rgba(218, 119, 57, 1);
+    }
+    .red-circle{
+        background: rgba(188, 76, 52, 1);
+    }
+
+    .text-desc{
+        font-size: 12px;
+        color: rgba(178, 186, 201, 1);
+    }
+}

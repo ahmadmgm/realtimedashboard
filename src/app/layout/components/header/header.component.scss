@@ -1,0 +1,19 @@
+$primary-color:#323232;
+$secondery-color:#454649;
+$font-color:#B2BAC9;
+
+.header-item{
+    background-color: $secondery-color;
+    border-radius: 0.5rem;
+    color: $font-color;
+    text-transform: capitalize;
+}
+
+.search-input{
+    text-align: left;
+    direction: ltr;
+    text-indent: 2.5rem;
+    background-image: url("/assets/icons/Search_light.svg");
+    background-repeat: no-repeat;
+    background-position: 0.5rem;
+}

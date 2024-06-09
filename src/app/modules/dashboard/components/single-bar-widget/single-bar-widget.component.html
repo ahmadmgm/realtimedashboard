@@ -1,0 +1,27 @@
+<div class="d-flex justify-content-between content-box">
+    <img src="/assets/icons/info_light.svg" alt="" style="position: absolute; right: 1rem; top: 1rem;">
+    <div class="row position-relative">
+        <div class="col-12">
+
+            <h6 class="site-name">{{siteName}}</h6>
+            <div class="info d-flex flex-column  site-description">
+                <p class="par1 mb-0">Total Events</p>
+                <p class="par2 mb-1">0.7%</p>
+                <p class="par3 mb-2"><small>Prev. Yr. &nbsp;<span>4%</span></small> <small class="ms-3"><img _ngcontent-ng-c3964463978="" src="/assets/icons/arrow_down.svg" alt=""> 14.2%</small></p>
+                <p class="par3 mb-2"><small>Grp. Avg. <span>6%</span></small> <small class="ms-3"><img _ngcontent-ng-c3964463978="" src="/assets/icons/arrow_down.svg" alt=""> 20%</small></p>
+            </div>
+        </div>
+    </div>
+    <div>
+
+    </div>
+    <div class="d-flex flex-column percent-bar mt-3 me-2">
+        {{redPer}}
+        <div class="wrapper-percent-card">
+            <div class="red-percent" [ngStyle]="{'height': redPer +'%'}"></div>
+            <div class="orange-percent" [ngStyle]="{'height': orangePer +'%'}"></div>
+            <div class="blue-percent" [ngStyle]="{'height': bluePer +'%'}"></div>
+        </div>
+        {{bluePer}}
+    </div>
+</div>

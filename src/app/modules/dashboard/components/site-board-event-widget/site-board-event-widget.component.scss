@@ -1,0 +1,67 @@
+.content-box{
+    box-shadow: 1px 1px 18px rgba(0, 0, 0, 0.23);
+    border-radius: 0.8rem;
+    padding: 2rem;
+}
+
+.cricle {
+    width: 12px;
+    height: 12px;
+    border-radius: 0.2rem;
+    display: inline-block;
+}
+
+.orange-circle{
+    background: rgba(255, 184, 0, 1);
+}
+
+.navy-color{
+    background: rgba(222, 231, 250, 1);
+}
+
+.red-color{
+    background: rgba(188, 76, 52, 1);
+}
+
+.alert-text{
+    color: rgba(178, 186, 201, 1);
+    font-size: 12px;
+}
+
+.update-time{
+    color: rgba(178, 186, 201, 1);
+    font-size: 14px;
+}
+
+.small-arrow{
+    background: rgb(55, 57, 61);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.2rem;
+}
+
+.main-title-section{
+    font-size: 18px;
+}
+
+.alert-number{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.alert-arrow{
+    color: rgb(102, 192, 136);
+    font-size: 12px;
+    background: rgb(55, 57, 61);
+    padding: 4px 8px;
+    margin-left: 2rem;
+    display: inline-block;
+    border-radius: 0.3rem;
+}
+
+.chart-shaddow{
+    box-shadow: 1px 1px 18px rgba(0, 0, 0, 0.23);
+    border-radius: 0.8rem;
+    padding: 1rem;
+    padding-right: 4rem;
+    position: relative;
+}

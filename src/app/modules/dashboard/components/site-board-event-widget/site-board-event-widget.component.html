@@ -1,0 +1,68 @@
+<div class="content-box">
+    <div class="row">
+        <div class="col-12">
+            <div class="row">
+                <div class="d-flex gap-3 col-6">
+                    <div>
+                        <span class="cricle orange-circle me-1"></span><span class="alert-text"> Alerts</span>
+                    </div>
+                    <div>
+                        <span class="cricle navy-color me-1"></span><span class="alert-text"> Info</span>
+                    </div>
+                    <div>
+                        <span class="cricle red-color me-1"></span><span class="alert-text"> Alarm</span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <p class="text-end update-time">Last updated time 2:23 pm, Sunday </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="row mt-3">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <div class="chart-shaddow">
+                <img src="/assets/icons/info_light.svg" alt="" style="position: absolute; right: 1rem; top: 1rem;">
+                <h6 class="main-title-section">Live Events <span><img class="small-arrow"
+                            src="/assets/icons/arrow-up.svg" alt=""></span></h6>
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-column mt-3">
+                        <div>
+                            <img src="/assets/icons/yallow-alert.svg" alt="">
+                            <small class="small d-block mt-2 alert-text">Total Alerts</small>
+                            <p class="alert-number">487 <span class="alert-arrow">15.2%</span></p>
+                        </div>
+                        <div>
+                            <img src="/assets/icons/triangle-alert.svg" alt="">
+                            <small class="small d-block mt-2 alert-text">Total Alarms</small>
+                            <p class="alert-number">600 <span class="alert-arrow">15.2%</span></p>
+                        </div>
+                        <div>
+                            <small class="small d-block mt-2 alert-text">Previous Year Total</small>
+                            <p class="alert-number">765 <span class="alert-arrow">15.2%</span></p>
+                        </div>
+                    </div>
+                    <div>
+                        <canvas id="MyChart4">{{ chart }}</canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-6 col-xl-6">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6">
+                    <app-single-bar-widget [redPer]=30 [orangePer]=70 siteName="Site 1"></app-single-bar-widget>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6">
+                    <app-single-bar-widget [redPer]=30 [bluePer]=70 siteName="Site 3"></app-single-bar-widget>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6">
+                    <app-single-bar-widget [redPer]=30 [orangePer]=30 [bluePer]=30 siteName="Site 2"></app-single-bar-widget></div>
+                <div class="col-12 col-sm-12 col-md-6">
+                    <app-single-bar-widget [redPer]=50 [orangePer]=50 siteName="Site 4"></app-single-bar-widget></div>
+            </div>
+        </div>
+    </div>
+</div>

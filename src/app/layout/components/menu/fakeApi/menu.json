@@ -1,0 +1,32 @@
+[
+    {
+        "title":"Home",
+        "link":"/",
+        "img":"home-icon.svg"
+    },
+    {
+        "title":"Realtime",
+        "link":"/",
+        "img":"realtime.svg"
+    },
+    {
+        "title":"Events",
+        "link":"/",
+        "img":"events.svg"
+    },
+    {
+        "title":"Devices",
+        "link":"/",
+        "img":"devices.svg"
+    },
+    {
+        "title":"Domain",
+        "link":"/",
+        "img":"domain.svg"
+    },
+    {
+        "title":"Settings",
+        "link":"/",
+        "img":"setting.svg"
+    }
+]

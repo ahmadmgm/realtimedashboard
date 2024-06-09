@@ -1,0 +1,14 @@
+<img src="/assets/icons/darhboard.svg" class="menu-icon" width="34" height="34" (click)="showHideMenu()" alt="">
+<div class="main-menu-left d-flex justify-content-center" [ngClass]="{'hideMenu':hideMenu,'showMenu':!hideMenu}">
+    <ul>
+        <li class="mb-4">
+            <img src="/assets/icons/logo.svg" alt="">
+        </li>
+        <li *ngFor="let menuItem of mainMenuList">
+            <a href="#" class="text-center d-flex flex-column justify-content-center">
+                <img class="p-3 pb-1" [src]="'/assets/icons/'+menuItem.img" alt="">
+                <span class="d-block">{{menuItem.title}}</span>
+            </a>
+        </li>
+    </ul>
+</div>

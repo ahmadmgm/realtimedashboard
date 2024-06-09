@@ -1,0 +1,67 @@
+.content-box{
+    box-shadow: 1px 1px 18px rgba(0, 0, 0, 0.23);
+    border-radius: 0.8rem;
+    padding: 1rem;
+    position: relative;
+}
+
+.wrapper-percent-card{
+    height: 82px;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    
+
+}
+.percent-bar{
+    width: 30px;
+    overflow: hidden;
+    border-radius: 0.3rem;
+    text-align: center;
+    position: relative;
+    top: 16px;
+    right: 12px;
+}
+
+.blue-percent{
+    background-color: rgba(90, 145, 226, 1);
+    border-radius: 0px 0px 3px 3px;
+}
+
+.orange-percent{
+    background-color: rgba(218, 119, 57, 1)
+}
+
+.red-percent{
+    background-color: rgba(188, 76, 52, 1);
+}
+
+.site-name{
+    margin-top:11px;
+}
+.site-description{
+    .par1{
+        font-size: 14px;
+        color: rgba(178, 186, 201, 1);
+    }
+    .par2{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .par3{
+        small{
+            font-size: 12px;
+            color: rgba(178, 186, 201, 1);
+            span{
+                color:#FFF;
+            }
+        }
+
+        small:nth-child(2){
+            background: rgba(55, 57, 61, 1);
+            padding: 0.4rem 0.5rem;
+            border-radius: 0.4rem;
+        }
+    }
+}
